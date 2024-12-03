@@ -1,10 +1,212 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding:0px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: skyblue;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  
+}
+.SignupBox{
+  margin-left: 30%;
+
+}
+
+.signheading,.addProdHeading{
+  margin-left: 18%;
+}
+
+.inputbox{
+  display: block;
+  border: 1px solid skyblue;
+  padding: 10px;
+  height: 25px;
+  width: 350px;
+  margin: 20px;
+}
+
+.submitbutton{
+  background-color: skyblue;
+  padding: 10px;
+  height: 40px;
+  width: 70px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: rgb(36, 35, 35);
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+.loginBox{
+  margin-left: 30%;
+}
+
+.logHead{
+  margin-left: 20px;
+}
+
+.logo{
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 2px;
+
+}
+.log-ul{
+  text-align: right;
+}
+
+.box,.btn{
+  margin-left: 18%;
+}
+
+.btn{
+  width:150px;
+  margin-bottom: 10px;
+}
+
+.invalid-input {
+    color: red;
+    
+    margin-left: 18%;
+    font-size: 12px;
+    position: absolute;
+    transform: translateY(-20px); /* Adjusts vertically for close positioning */
+  }
+  
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li{
+  display: inline-block;
+  width: 150px;
+  border: 1px solid skyblue;
+  padding: 5px;
+}
+
+.product-list ul{
+  margin: 0px;
+}
+.search-product-key{
+  height: 30px;
+  width: 400px;
+  padding: 5px;
+  border: 2px solid skyblue;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.app-background {
+  background-image: url('https://img.freepik.com/premium-photo/top-view-toy-shopping-cart-with-boxes-gift-blue-background-copy-space-text-design_339191-1616.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.profile-container {
+  max-width: 80%; /* Increase width to cover more space */
+  margin: 20px auto; /* Centers horizontally but leaves left alignment within the container */
+  padding: 30px;
+  background-color: #f0f4f8; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align content to the left */
+}
+
+.profile-container h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.profile-details strong {
+  color: #333;
+}
+
+
+.footer {
+  background-color: #87CEEB; /* Sky blue color */
+  color: white; /* White text color */
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer .tagline {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #FFD700; /* Gold color for hover effect */
+}
+
+.copyright {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #f0f0f0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
